@@ -57,4 +57,4 @@ c. Menampilkan data items join dengan kategori
 SELECT items.name, items.description, items.price, items.stock, items.category_id, categories.name as kategori from items, categories WHERE items.id = categories.id;
 
 5. Mengubah Data dari Database
-UPDATE items SET price=2500000 WHERE id=1;
+UPDATE items SET price=2500000 WHERE name='Sumsang b50';
